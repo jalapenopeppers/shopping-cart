@@ -2,6 +2,7 @@ import React from 'react';
 import { NavLink, Link } from 'react-router-dom';
 
 import './NavBar.css';
+import cartIcon from '../icons/cart-icon.svg';
 
 const NavBar = () => {
   return (
@@ -10,7 +11,7 @@ const NavBar = () => {
       <ul className="buttons-list">
         <li><NavLink to="/home">Home</NavLink></li>
         <li><NavLink to="/shop">Shop</NavLink></li>
-        <li><NavLink to="">Cart</NavLink></li>
+        <li><img className="view-cart-icon" src={cartIcon} alt="Cart icon" /></li>
       </ul>
     </nav>
   );
