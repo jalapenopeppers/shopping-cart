@@ -1,17 +1,27 @@
-import React, { useState } from 'react';
+import React from 'react';
 
-// import './ProductManager.css'
+import './ProductCard.css'
+import addCartIcon from '../images/add-cart-icon.svg';
 
 const ProductCard = (props) => {
+  const handleAddToCartClick = () => {
+    // FINISH
+    console.log('Add to cart');
+  }
+  const handleQuantityChange = () => {
+    // FINISH
+    console.log('Change quantity');
+  }
 
-  const { prodImg, prodPrice } = props;
+  const { prodName, prodImg, prodPrice } = props;
   return (
     <div className="product">
-      <img className="product-image" src={prodImg} alt="Product" />
+      <img className="product-image" src="https://via.placeholder.com/150" alt="Product" />
       <div className="product-details">
-        <p className="product-price">{prodPrice}</p>
+        <p className="product-name">{prodName}</p>
+        <p className="product-price">${prodPrice}</p>
         <p className="product-quantity">Q: 0</p>
-        <p className="add-to-cart">Add to cart</p>
+        <img className="add-to-cart" src={addCartIcon} alt="Add to cart" onClick={handleAddToCartClick} />
       </div>
     </div>
   );

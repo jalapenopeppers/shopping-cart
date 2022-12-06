@@ -1,0 +1,15 @@
+.product-details {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+}
+
+.product-name {
+  grid-area: 1 / 1 / 2 / 4;
+}
+
+img.add-to-cart {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}

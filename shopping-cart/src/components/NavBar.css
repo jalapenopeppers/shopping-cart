@@ -6,6 +6,10 @@ nav.navigation {
   grid-template-columns: 1fr 1fr;
 }
 
+.company-name {
+  font-weight: 600;
+}
+
 ul {
   justify-self: end;
   padding-right: 50px;
