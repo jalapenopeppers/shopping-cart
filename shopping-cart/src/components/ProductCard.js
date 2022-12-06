@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './ProductCard.css'
-import addCartIcon from '../images/add-cart-icon.svg';
+import addCartIcon from '../icons/add-cart-icon.svg';
 
 const ProductCard = (props) => {
   const handleAddToCartClick = () => {
