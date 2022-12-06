@@ -1,0 +1,27 @@
+.home {
+  height: 100%;
+  display: grid;
+  grid-template-rows: 1fr 20fr;
+}
+
+.home-grid-container {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template: 1fr / repeat(2, 1fr);
+}
+
+.title-container {
+  margin-bottom: 100px; /* hacky but works */
+  text-align: center;
+  place-self: center;
+}
+
+.title-text {
+  padding-bottom: 50px;
+  font-size: 60px;
+}
+
+.img-container {
+  place-self: center;
+}
