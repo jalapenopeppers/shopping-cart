@@ -1,12 +1,14 @@
 import React from 'react';
 
 import NavBar from './NavBar';
+import ProductManager from './ProductManager';
 
 const Shop = () => {
   return (
     <div className="shop">
       <NavBar />
-      <h1> Welcome to the shop</h1>
+
+      <ProductManager />
     </div>
   );
 }
