@@ -1,0 +1,14 @@
+div.custom-number-input {
+  /* padding: 0 5px; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  gap: 5px;
+  border: 0.5px solid grey;
+  border-radius: 10px;
+}
+
+.change-number-button {
+  padding: 0 3px;
+  cursor: pointer;
+}

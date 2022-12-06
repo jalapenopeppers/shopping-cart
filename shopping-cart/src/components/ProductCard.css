@@ -1,3 +1,11 @@
+.product {
+  display: grid;
+}
+
+.product-image {
+  justify-self: center;
+}
+
 .product-details {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

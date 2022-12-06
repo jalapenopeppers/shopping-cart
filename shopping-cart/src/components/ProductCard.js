@@ -1,5 +1,7 @@
 import React from 'react';
 
+import NumberInput from './NumberInput';
+
 import './ProductCard.css'
 import addCartIcon from '../icons/add-cart-icon.svg';
 
@@ -20,7 +22,7 @@ const ProductCard = (props) => {
       <div className="product-details">
         <p className="product-name">{prodName}</p>
         <p className="product-price">${prodPrice}</p>
-        <p className="product-quantity">Q: 0</p>
+        <NumberInput className="product-quantity" />
         <img className="add-to-cart" src={addCartIcon} alt="Add to cart" onClick={handleAddToCartClick} />
       </div>
     </div>
