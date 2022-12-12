@@ -1,18 +1,23 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 import './NumberInput.css';
 
-const NumberInput = () => {
+const NumberInput = (props) => {
+  const callback = props.qtChangeCallback;
+
   const [ quantity, setQuantity ] = useState(0);
+  useEffect(() => {
+    callback(quantity);
+  }, [callback, quantity]);
 
   function decreaseQuantity() {
-    console.log('Decrease quantity');
+    // console.log('Decrease quantity');
     if (quantity > 0) {
       setQuantity(quantity - 1);
     }
   }
   function increaseQuantity() {
-    console.log('Increase quantity');
+    // console.log('Increase quantity');
     setQuantity(quantity + 1);
   }
 

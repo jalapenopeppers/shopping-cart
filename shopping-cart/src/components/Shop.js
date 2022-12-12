@@ -2,6 +2,7 @@ import React from 'react';
 
 import NavBar from './NavBar';
 import ProductManager from './ProductManager';
+import Cart from './Cart';
 
 const Shop = () => {
   return (
@@ -9,6 +10,7 @@ const Shop = () => {
       <NavBar />
 
       <ProductManager />
+      <Cart />
     </div>
   );
 }
