@@ -1,0 +1,23 @@
+.cart-product {
+  display: grid;
+}
+
+.cart-product-image {
+  justify-self: center;
+}
+
+.cart-product-details {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+}
+.cart-product-price {
+  justify-self: end;
+}
+p.cart-product-subtotal {
+  justify-self: start;
+}
+
+.cart-product-name {
+  grid-area: 1 / 1 / 2 / 4;
+}

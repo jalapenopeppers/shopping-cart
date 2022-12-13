@@ -9,6 +9,12 @@ const NumberInput = (props) => {
   useEffect(() => {
     callback(quantity);
   }, [callback, quantity]);
+  useEffect(() => {
+    if (props.startQt !== undefined) setQuantity(props.startQt);
+  }, []);
+  useEffect(() => {
+    if (props.forceQtTo !== undefined) setQuantity(props.forceQtTo);
+  }, [props.forceQtTo]);
 
   function decreaseQuantity() {
     // console.log('Decrease quantity');

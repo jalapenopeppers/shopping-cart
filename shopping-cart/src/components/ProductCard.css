@@ -8,12 +8,12 @@
 
 .product-details {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   justify-items: center;
 }
 
 .product-name {
-  grid-area: 1 / 1 / 2 / 4;
+  grid-area: 1 / 1 / 2 / 3;
 }
 
 img.add-to-cart {

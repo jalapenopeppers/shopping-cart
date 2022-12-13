@@ -12,6 +12,7 @@ const ProductManager = () => {
         prodName="Basic VR Headset"
         prodImg=""
         prodPrice="300"
+        id="1"
       />
     },
     {
@@ -21,6 +22,7 @@ const ProductManager = () => {
         prodName="Advanced VR Headset"
         prodImg=""
         prodPrice="400"
+        id="2"
       />
     },
     {
@@ -30,6 +32,7 @@ const ProductManager = () => {
         prodName="Premium VR Headset"
         prodImg=""
         prodPrice="500"
+        id="3"
       />
     },
     {
@@ -39,6 +42,7 @@ const ProductManager = () => {
         prodName="Basic AR Glasses"
         prodImg=""
         prodPrice="200"
+        id="4"
       />
     },
     {
@@ -48,6 +52,7 @@ const ProductManager = () => {
         prodName="Advanced AR Glasses"
         prodImg=""
         prodPrice="300"
+        id="5"
       />
     },
     {
@@ -57,6 +62,7 @@ const ProductManager = () => {
         prodName="Premium AR Glasses"
         prodImg=""
         prodPrice="400"
+        id="6"
       />
     }
   ]);
